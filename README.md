@@ -64,6 +64,8 @@ This project automates the process of scraping the STScI `kepseismic` archive an
 
    This executes each per-group script in sequence, downloading FITS files into `KEP_DATA/{group_id}/{kic_id}/{filter}d-filter/`.
 
+   **Careful:** There are 161,961 unique KIC IDs in the dataset, which I estimate it sums ~859 GB of data.
+
 ## Directory Layout of Downloads
 
 After running, `KEP_DATA/` will contain:
